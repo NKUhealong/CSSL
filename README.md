@@ -1,4 +1,5 @@
-
+**Contrastive Semi-supervised Learning for 2D medical image segmentation.**
+![](images/model.jpg)
 ### Some filemaps
 - attn_unet.py: Code for the backbone/baseline Attention unet
 - data_loader.py: Contains data generator for the celiac dataset
@@ -6,9 +7,10 @@
 - inference.py: Run inference on a test set of images
 - metrics.py: Contains loss functions and metrics to be monitored
 - model.py: Defines encoder, decoder, composite model
-- train.py: Running semi-supervised CL+CR training of the network. Change config variables at the beginning code and run it (python train.py)
+- main.py: Running semi-supervised CL+CR training and finetuning of the network. Change config variables at the beginning code and run it (python main.py)
 - utils.py: Some functional utilities
-- dataloaders/data_generator.py: A completely modular implementation of celiac dataset generator. Easilty modifiable to other datasets
+- dataloaders/data_generator.py: A completely modular implementation of celiac dataset generator. Easily modifiable to other datasets
+- FT_generator.py: Contains dataloader for finetuning with Celiac Dataset.
 
 ### Requirements
 - python 3.6+
