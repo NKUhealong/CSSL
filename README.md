@@ -1,4 +1,6 @@
 **Contrastive Semi-supervised Learning for 2D medical image segmentation.**
+
+Paper has been selected for oral presentation at MICCAI 2021. Find a pre-print of the paper here: https://arxiv.org/abs/2106.06801
 ![](images/model.jpg)
 ### Some filemaps
 - attn_unet.py: Code for the backbone/baseline Attention unet
